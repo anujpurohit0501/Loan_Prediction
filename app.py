@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # 1. Model ko Load Karo (lr model jo pkl file me hai)
-with open('loan_model.pkl', 'rb') as file:
+with open('loan_model_v2.pkl', 'rb') as file:
     lr = pickle.load(file)
 
 # 2. Page Configuration aur Title
